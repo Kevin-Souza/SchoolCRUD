@@ -16,16 +16,14 @@ namespace TemplateBootstrap.Data
                 if (!context.Funcionarios.Any())
                 {
                     context.Funcionarios.AddRange(new List<funcionario>(){
-                        new funcionario(){
-                            new funcionario()
+                        new funcionario()
                             {
-                                Nome = "Daniel", Endereco = "Rua Chile, 75",
-                                EnvironmentVariableTarget = "daniel@gmail.com"
+                                Nome = "Daniel",
+                                Endereco = "Rua Chile, 75",
+                                Email = "daniel@gmail.com"
                             }
-                        }
                     });
                 }
-
             }
         }
     }
