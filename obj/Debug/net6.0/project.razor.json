@@ -16318,6 +16318,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/mnt/57cc36af-6817-4765-8e8a-f0c582a2962d/WorkSpaces/DotNet/TemplateBootstrap/Views/Index...cshtml",
+      "TargetPath": "Views\\Index...cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/mnt/57cc36af-6817-4765-8e8a-f0c582a2962d/WorkSpaces/DotNet/TemplateBootstrap/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"

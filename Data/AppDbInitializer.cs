@@ -21,8 +21,19 @@ namespace TemplateBootstrap.Data
                                 Nome = "Daniel",
                                 Endereco = "Rua Chile, 75",
                                 Email = "daniel@gmail.com"
-                            }
+                            },
+                            new funcionario(){
+                                    Nome = "Maria",
+                                    Endereco = "Rua Argentina, 50",
+                                    Email = "maria@hotmail.com.br"
+                            },
+                        new funcionario(){
+                            Nome = "Lucas",
+                            Endereco = "Rua Paraguai, 12",
+                            Email = "lucas@outlook.com"
+                        },
                     });
+                    context.SaveChanges();
                 }
             }
         }
